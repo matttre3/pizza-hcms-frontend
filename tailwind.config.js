@@ -4,9 +4,18 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    'md:hidden'
+  ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        main: '#E1B000',
+      },
+      fontFamily: {
+        montserrat: ["Montserrat", 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
-
